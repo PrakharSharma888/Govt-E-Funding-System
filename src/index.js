@@ -6,6 +6,7 @@ import App from './App';
 import SiteCarousel from './Carousel';
 import NavBar from './NavBar';
 import Main from './Main';
+import FooterSection from './Footer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -13,6 +14,7 @@ root.render(
     <NavBar/>
     <SiteCarousel/>
     <Main/>
+    <FooterSection/>
     <App />
   </React.StrictMode>
 );

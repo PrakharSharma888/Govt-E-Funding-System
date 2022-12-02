@@ -1,0 +1,28 @@
+:root{
+    --black-color : #000000;
+    --white-color : #ffffff;
+    --border-color: #404040;
+}
+.footersection{
+    height: 300px;
+    background: url(https://parivahan.gov.in/parivahan//sites/all/themes/newtheme/cdn/icons/footer-bottom-bg.png) !important;
+}
+.footercontainer{
+    color: var(--white-color);
+}
+.footerheadings{
+    /* padding-bottom: 5px; */
+    margin: 3px auto;
+    padding: 0 2px 4px;
+    display: inline-block;
+    font-weight: bold;
+    border-bottom: 2px solid var(--border-color);
+}
+.footerdata{
+    display: block;
+    margin: 2px auto;
+    padding: 0 1px 3px;
+}
+.footerCol{
+    margin-top: 5%;
+}

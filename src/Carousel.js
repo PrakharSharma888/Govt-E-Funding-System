@@ -11,14 +11,6 @@ const SiteCarousel = ()=>{
                     <img
                     className="d-block w-100"
                     src={GovtIndia}
-                    alt="Third slide"
-                    style = {{height: "500px"}}
-                    />
-                </Carousel.Item>
-                <Carousel.Item>
-                    <img
-                    className="d-block w-100"
-                    src={Panchayat1}
                     alt="First slide"
                     style = {{height: "500px"}}
                     />
@@ -26,8 +18,16 @@ const SiteCarousel = ()=>{
                 <Carousel.Item>
                     <img
                     className="d-block w-100"
-                    src={ZilaParishad}
+                    src={Panchayat1}
                     alt="Second slide"
+                    style = {{height: "500px"}}
+                    />
+                </Carousel.Item>
+                <Carousel.Item>
+                    <img
+                    className="d-block w-100"
+                    src={ZilaParishad}
+                    alt="Third slide"
                     style = {{height: "500px"}}
                     />
                 </Carousel.Item>
