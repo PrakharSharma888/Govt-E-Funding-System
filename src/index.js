@@ -2,7 +2,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './App';
 import SiteCarousel from './Carousel';
 import NavBar from './NavBar';
 import Main from './Main';
@@ -15,6 +14,5 @@ root.render(
     <SiteCarousel/>
     <Main/>
     <FooterSection/>
-    <App />
   </React.StrictMode>
 );

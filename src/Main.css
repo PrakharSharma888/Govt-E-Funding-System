@@ -1,0 +1,16 @@
+.maincontainer{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.maintext{
+    text-align: center;
+    margin: 5% 0 5% 0;
+}
+.createText{
+    font-size: 20px;
+    font-weight: bold;
+}
+.viewText{
+    font-size: 20px;
+    font-weight: bold;
+}

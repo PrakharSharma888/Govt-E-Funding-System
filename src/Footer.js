@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
-import Table from 'react-bootstrap/Table';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import logoBg from './Images/E-Lending BG.png';
 
 const FooterSection = ()=>{
     return (
@@ -32,7 +32,11 @@ const FooterSection = ()=>{
                                 </Col>
                             </Row>
                         </Col>
-                        <Col className="footerCol">logo and stuff</Col>
+                        <Col className="footerCol text-center">
+                            <div className='logoFooter'>
+                                <img src={logoBg} style={{width: "200px"}}alt="logoWithBG"/>
+                            </div>
+                        </Col>
                     </Row>
                 </Container>
             </div>
